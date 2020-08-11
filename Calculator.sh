@@ -1,5 +1,10 @@
 #!/bin/bash
 
+test "$1" == "-h" && {
+	echo "This program suits to calculate some numbers :) "
+	exit 0
+}
+
 echo "Put two numbers: "
 read a
 read b
